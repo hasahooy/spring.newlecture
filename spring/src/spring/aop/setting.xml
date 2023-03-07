@@ -38,7 +38,7 @@
 			</list>
 			</property>
 	</bean> -->
-	
+	 
 			 <bean id ="classBeforeAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
 		<property name ="advice" ref="logBeforeAdvice"/>
 		<property name ="patterns">
